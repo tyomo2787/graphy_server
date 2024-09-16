@@ -1,4 +1,4 @@
-FROM node:22.7-bookworm-slim
+FROM debian:bookworm-slim
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
