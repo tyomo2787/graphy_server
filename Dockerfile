@@ -1,4 +1,4 @@
-FROM node:22.7-bookworm-slim> minizip 1.1-8+deb12u1
+FROM node:18.20.4-bookworm-slim
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
